@@ -3,10 +3,11 @@ import { StyleSheet, Text, View } from 'react-native';
 // tells Expo to keep the app loading screen open if it is the first and only component rendered in your app
 import { AppLoading } from 'expo';
 // provides an Expo universal module to download assets and pass them into other APIs
-import { Asset } from 'expo-asset'
+import { Asset } from 'expo-asset';
 
 // this component holds the app container created in index.js
-import Navigation from './navigation/index'
+import Navigation from './navigation/index';
+import { Block } from './components';
 
 export default class App extends React.Component {
   state = {
@@ -37,7 +38,10 @@ export default class App extends React.Component {
     }
 
     return (
-      <Navigation/>
+      // using Block component with white prop configuration
+      <Block white>
+        <Navigation/>
+      </Block>
     );
   }
 }

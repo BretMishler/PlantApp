@@ -1,22 +1,19 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet } from 'react-native';
+
+import { Button, Block, Text } from '../components';
 
 export default class Welcome extends React.Component {
 
+    static navigationOptions = {
+        header: null
+    }
+    
     render() {
         return (
-            <View style={styles.container}>
+            <Block center middle>
                 <Text>Welcome</Text>
-            </View>
-        )
+            </Block>
+        );
     }
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
-});
