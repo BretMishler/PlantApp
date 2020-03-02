@@ -6,5 +6,5 @@
   "expoServerNgrokUrl": "https://wm-eua.bret-mishler.plantapp.exp.direct",
   "packagerNgrokUrl": "https://packager.wm-eua.bret-mishler.plantapp.exp.direct",
   "ngrokPid": 63297,
-  "webpackServerPort": null
+  "webpackServerPort": 19006
 }

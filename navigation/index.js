@@ -6,23 +6,23 @@ import { createStackNavigator } from 'react-navigation-stack';
 // import Browse from '../screens/Browse';
 // import Explore from '../screens/Explore';
 // import Forgot from '../screens/Forgot';
-// import Login from '../screens/Login';
+import Login from '../screens/Login';
 // import Product from '../screens/Product';
 // import Settings from '../screens/Settings';
-// import Signup from '../screens/Signup';
+import SignUp from '../screens/Signup';
 import Welcome from '../screens/Welcome';
 
 // createStackNavigator function enables us to stack our screens in order to 
 // configure an app container with screens to navigate.
 const screens = createStackNavigator({
+    Welcome,
     // Browse,
     // Explore,
     // Forgot,
-    // Login,
+    Login,
     // Product,
     // Settings,
-    // Signup,
-    Welcome,
+    SignUp,
 }, {
     // navigation options configured to this defaultNavigationOptions object
     // are applied by default to all the screens in our screen const
