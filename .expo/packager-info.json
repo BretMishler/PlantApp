@@ -2,8 +2,9 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 53792,
+  "packagerPid": 57672,
   "expoServerNgrokUrl": "https://wm-eua.bret-mishler.plantapp.exp.direct",
   "packagerNgrokUrl": "https://packager.wm-eua.bret-mishler.plantapp.exp.direct",
-  "ngrokPid": 53803
+  "ngrokPid": 57683,
+  "webpackServerPort": 19006
 }
