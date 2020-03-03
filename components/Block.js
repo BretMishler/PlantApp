@@ -208,4 +208,16 @@ export const styles = StyleSheet.create({
     white: { backgroundColor: theme.colors.white, },
     gray: { backgroundColor: theme.colors.gray, },
     gray2: { backgroundColor: theme.colors.gray2, },
+    stepsContainer: {
+        position: 'absolute',
+        bottom: theme.sizes.base * 3,
+        right: 0,
+        left: 0,
+    },
+    steps: {
+        width: 5,
+        height: 5,
+        borderRadius: 5,
+        marginHorizontal: 2.5,
+    },
 })
